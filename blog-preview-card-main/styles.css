@@ -1,0 +1,76 @@
+body{
+   background-color: hsl(47, 88%, 63%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: "figtree", sans-serif;
+ }
+ .frame{
+   background-color: white;
+   padding: 20px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   border: 1px solid black;
+   box-shadow: 8px 8px;
+ }
+ .content-image{
+   width: 300px;
+   border-radius: 10px;
+ }
+ .learning-button{
+   width: 100px;
+   margin-top: 20px;
+   background-color: hsl(47, 88%, 63%);
+   border: none;
+   border-radius: 4px;
+   padding: 5px 10px;
+   font-weight: 900;
+   font-size: 16px;
+ }
+ .published-date{
+   color: hsl(0, 0%, 7%);
+ }
+ h1{
+   font-weight: 900;
+   font-size: 19px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+ }
+ h1:hover{
+   cursor: pointer;
+ }
+ h1:active{
+   color:  hsl(47, 88%, 63%);;
+ }
+ .texts{
+   color: hsl(0, 0%, 42%);
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 20px;
+   width: 300px;
+ }
+ .author-info{
+   display: flex;
+   align-items: center;
+ }
+ .author-pic{
+   width: 40px;
+   margin-right: 10px;
+ }
+ .author-name{
+   background-color: transparent;
+   font-size: 15px;
+   font-weight: 900;
+   border: none;
+ }
+ .attribution {
+   font-size: 13px;
+   margin-top: 50px;
+  text-align: center;
+ }
+ .attribution a {
+   color: hsl(148, 88%, 30%);
+ }
